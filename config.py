@@ -1,0 +1,15 @@
+# config.py
+GAMMA = 0.99
+LEARNING_RATE = 0.001
+BUFFER_SIZE = 10000
+BATCH_SIZE = 64
+UPDATE_TARGET_EVERY = 100
+EPSILON_START = .3
+EPSILON_END = 0.01
+EPSILON_DECAY = 0.99
+NUM_ACTIONS = 12
+AGENT_CONFIG = {
+    'state_dim': None,
+    'hidden_dim': 64,
+    'num_actions': 12
+}
